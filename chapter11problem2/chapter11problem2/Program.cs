@@ -13,6 +13,7 @@ namespace chapter11problem2
         {
             int input = 0;
             input.GetUserInput("Enter a number", clearOnError: true);
+            Console.WriteLine(JHUtilities.ConsoleHelper.GetString());
             Console.WriteLine(input);
            // PressAnyKey();
         }
