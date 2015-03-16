@@ -1,13 +1,13 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JHUtilities
+namespace AggregationDemo
 {
-    public static class ConsoleHelper
-    {}
-
+    interface ITightenable
+    {
+        bool Tighten();
+    }
 }
