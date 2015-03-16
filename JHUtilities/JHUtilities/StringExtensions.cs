@@ -16,12 +16,11 @@ namespace JHUtilities
         {
             bool err = false;
             T input = new T();
-
             do
             {
                 try
                 {
-                    Console.WriteLine(prompt);
+                    Console.Write(prompt);
                     input = (T) Convert.ChangeType(Console.ReadLine(), typeof (T));
                     err = false;
                 }
