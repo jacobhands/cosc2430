@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'ModelingProject1::IComplexPart' -  (Interface), 'ModelingProject1::IPart' -  (Interface), 'ModelingProject1::ITightenable' -  (Interface), 'ModelingProject1::ICylinder' -  (Interface), 'ModelingProject1::ICylinderBlock' -  (Interface), 'ModelingProject1::IEngine' -  (Interface), 'ModelingProject1::ISparkPlug' -  (Interface), 'ModelingProject1::IBolt' -  (Interface) " />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Medium" Text="'ModelingProject1::IComplexPart' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\IComplexPart.cs" />
+  <Message Timestamp="2015-03-23T01:50:00" Importance="Medium" Text="'ModelingProject1::IPart' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\IPart.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::ITightenable' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\ITightenable.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::ICylinder' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\ICylinder.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::ICylinderBlock' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\ICylinderBlock.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::IEngine' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\IEngine.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::ISparkPlug' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\ISparkPlug.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Medium" Text="'ModelingProject1::IBolt' -  (Interface) : success (file replaced) - C:\Users\Jacob\Source\Repos\cosc2430\Practice\InterfaceDemo\ModelingProject1Lib\GeneratedCode\IBolt.cs" />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="The selection included 8 elements which were not bound to a template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'1d624d32-6215-4a45-87ce-2cc93c6c863b' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'f314f3cd-0138-41de-befd-7c5c34d8a6b5' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'905fbc54-0f5f-4ab4-948a-b7fbd8b7f6a7' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'93ae3046-8993-4cc6-89f0-5fe86ead0096' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'46e36b6a-3af2-46d9-838a-8d58c265f1df' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'ae33c90e-5279-4d04-8888-02cea8f7ca38' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'9ad0421e-176a-46d4-9f4d-d27143742037' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="Diagnostic" Text="'24fe80ff-b626-4fa1-88e4-6a8931a16f53' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-03-23T01:50:01" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
