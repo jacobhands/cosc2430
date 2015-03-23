@@ -4,13 +4,19 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-public interface ICylinder  : IComplexPart
+namespace InterfaceDemo
 {
-	float HeadDiameter { get;set; }
+    public interface IBolt  : ITightenable, IPart
+    {
+        string UnitSystem { get;set; }
+
+        float Length { get;set; }
+
+        string HeadType { get;set; }
+
+        float Diameter { get;set; }
+
+    }
 }
 

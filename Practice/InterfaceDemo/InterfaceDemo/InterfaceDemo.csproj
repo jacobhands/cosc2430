@@ -41,11 +41,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Engine.cs" />
+    <Compile Include="Interfaces\IBolt.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\IComplexPart.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\ICylinder.cs" />
+    <Compile Include="Interfaces\ICylinderBlock.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\IEngine.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\IPart.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\ISparkPlug.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Interfaces\ITightenable.cs">
+      <CustomToolNamespace>InterfaceDemo</CustomToolNamespace>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

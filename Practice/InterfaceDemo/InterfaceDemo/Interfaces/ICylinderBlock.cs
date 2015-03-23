@@ -9,8 +9,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public interface ICylinder  : IComplexPart
+namespace InterfaceDemo
 {
-	float HeadDiameter { get;set; }
+    public interface ICylinderBlock : IComplexPart
+    {
+        IList<ICylinder> Cylinders { get; set; }
+
+        IList<IBolt> Bolts { get; set; }
+
+    }
 }
+
 
