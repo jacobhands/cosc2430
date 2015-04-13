@@ -7,6 +7,7 @@
 *.userosscache
 *.sln.docstates
 tmp
+*.zip
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
